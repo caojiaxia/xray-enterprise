@@ -1,5 +1,6 @@
-Docker-compose配置：
-      
+### Docker-compose配置 ###
+
+```yml      
 services:
   xray:
     image: ghcr.io/caojiaxia/xray-enterprise:latest
@@ -12,3 +13,4 @@ services:
 networks:
   proxy:
     external: true
+```
