@@ -1,5 +1,5 @@
 Docker-compose配置：
-
+      
 services:
   xray:
     image: ghcr.io/caojiaxia/xray-enterprise:latest
@@ -8,9 +8,8 @@ services:
     ports:
       - "10000:10000"    
     environment:
-      - UUID=6d5927aa-feaf-4f59-afa0-d02697de744e
-      - WSPATH=KMlkkhfyHTVg
-    networks:
+      - UUID=你的UUID
+      - WSPATH=节点路径
       - proxy
 
 networks:
