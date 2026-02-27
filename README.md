@@ -10,10 +10,10 @@ docker login ghcr.io
 👉 必须使用 GitHub Personal Access Token（不是 GitHub 密码）
 
 🔥 如何生成 Token
-打开 GitHub
-Settings
-Developer settings
-Personal access tokens
+打开 GitHub→
+Settings→
+Developer settings→
+Personal access tokens→
 Fine-grained token 或 classic
 
 勾选：
@@ -42,9 +42,9 @@ docker compose up -d
 打开 GitHub
 进入仓库
 点击 Packages
-点击 xray-enterprise
-Settings
-Change visibility
+点击 xray-enterprise→
+Settings→
+Change visibility→
 改成 Public
 
 这样服务器可以直接拉：
