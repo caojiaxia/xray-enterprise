@@ -4,13 +4,12 @@
 docker login ghcr.io
 
 用户名：
-caojiaxia
+你的github用用户名
 
 密码：
 👉 必须使用 GitHub Personal Access Token（不是 GitHub 密码）
 
 🔥 如何生成 Token
-
 打开 GitHub
 Settings
 Developer settings
