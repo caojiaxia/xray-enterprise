@@ -25,9 +25,10 @@ read:packages
 docker login ghcr.io
 
 输入：
+
 Username: caojiaxia
 
-   Password: 你的 token
+Password: 你的 token
 
 成功会显示：
 Login Succeeded
