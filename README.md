@@ -1,16 +1,20 @@
 ### 使用教程
 **Docker环境部署**
-
-**1.更新系统软件包**
-```apt update && apt upgrade -y```
-**2.安装必要的工具**
-```apt install -y curl nano```
-**3.安装docker：**
-```bash <(curl -sSL https://cdn.jsdelivr.net/gh/SuperManito/LinuxMirrors@main/DockerInstallation.sh)```
-**4.安装docker-compose**
-```curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && chmod +x /usr/local/bin/docker-compose```
-**加速镜像**
-```curl -L "https://hub.gitmirror.com/https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && chmod +x /usr/local/bin/docker-compose```
+- 1.更新系统软件包
+```apt update && apt upgrade -y
+```
+- 2.安装必要的工具
+```apt install -y curl nano
+```
+- 3.安装docker：
+```bash <(curl -sSL https://cdn.jsdelivr.net/gh/SuperManito/LinuxMirrors@main/DockerInstallation.sh)
+```
+- 4.安装docker-compose
+```curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && chmod +x /usr/local/bin/docker-compose
+```
+- 加速镜像
+```curl -L "https://hub.gitmirror.com/https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose && chmod +x /usr/local/bin/docker-compose
+```
 
 ### Docker-compose配置 
 
