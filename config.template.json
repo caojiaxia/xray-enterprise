@@ -10,15 +10,7 @@
       },
       "streamSettings": {
         "network": "xhttp",
-        "security": "tls",
-        "tlsSettings": {
-          "certificates": [
-            {
-              "certificateFile": "/etc/letsencrypt/live/npm-1/fullchain.pem",
-              "keyFile": "/etc/letsencrypt/live/npm-1/privkey.pem"
-            }
-          ]
-        },
+        "security": "none",
         "xhttpSettings": {
           "path": "${XPATH}",
           "mode": "packet-up"
