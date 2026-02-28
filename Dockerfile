@@ -12,6 +12,6 @@ RUN set -ex && \
     rm /tmp/xray.zip
 
 # 暴露端口（根据你的 config.json 决定）
-EXPOSE 443
+EXPOSE 8443
 
 CMD ["/usr/bin/xray", "-config", "/etc/xray/config.json"]
