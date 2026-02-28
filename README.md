@@ -69,3 +69,17 @@ networks:
 | Force SSL | 必须打开                                                                     |
 | HTTP/2 Support | 必须打开                                                                     |
 
+## 客户端连接参数自查
+**请严格对照以下参数修改你的客户端（如 v2rayN, Clash Meta 等）**
+
+- 协议 (Protocol): VLESS
+- 地址: 你的域名/优选IP
+- 端口: 443
+- UUID: 你设置的环境变量 UUID
+- 传输协议 (Transport): xhttp
+- 路径 (Path): 你设置的那个路径 (注意：如果变量是 abc，路径通常填 /abc)
+- TLS: 开启 (ON)
+- SNI: 你的域名
+- ALPN: h2或者h2,http/1.1
+- 跳过证书验证(allowlnsecure)：false
+
