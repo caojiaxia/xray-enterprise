@@ -1,0 +1,30 @@
+{
+  "log": { "loglevel": "warning" },
+  "inbounds": [
+    {
+      "port": 8443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [{ "id": "${UUID}", "level": 0 }],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "xhttp",
+        "security": "tls",
+        "tlsSettings": {
+          "certificates": [
+            {
+              "certificateFile": "/etc/letsencrypt/live/npm-1/fullchain.pem",
+              "keyFile": "/etc/letsencrypt/live/npm-1/privkey.pem"
+            }
+          ]
+        },
+        "xhttpSettings": {
+          "path": "${XPATH}",
+          "mode": "packet-up"
+        }
+      }
+    }
+  ],
+  "outbounds": [{ "protocol": "freedom" }]
+}
