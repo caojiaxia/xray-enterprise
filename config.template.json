@@ -12,7 +12,7 @@
         "network": "xhttp",
         "security": "none",
         "xhttpSettings": {
-          "path": "${XPATH}",
+          "path": "{XPATH}",
           "mode": "packet-up"
         }
       }
