@@ -56,6 +56,17 @@ networks:
     driver: bridge
 ```
 
+### 启动命令
+
+- 1
+```
+docker compose pull
+```
+- 2
+```
+docker compose up -d
+```
+
 ###   NPM设置   
 **为了数据安全，请自行去CF做端口转发** 
    - 为你的NPM面板解析一个域名（你的服务器IP）然后把端口转发到 81
